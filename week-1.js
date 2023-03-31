@@ -27,16 +27,17 @@
 // TASK2
 // const arr = ['BEST', 'the', 'foo', 'is', 'JS'];  Напишіть функцію яка отримуєм масив вирізає фу та розвертає масис і створює рядок
 
-const arr = ["BEST", "the", "foo", "is", "JS"];
-function updateUserInfo(array, str) {
-  const revArr = [...array].reverse();
-  console.log(revArr);
-  const idxStr = revArr.indexOf(str);
-  console.log(idxStr);
-  const delEl = revArr.splice(idxStr, 1);
-  console.log(delEl);
-  const resultStr = revArr.join(" ");
-  alert(resultStr);
-  return resultStr;
-}
-console.log(updateUserInfo(arr, "foo"));
+// const arr = ["BEST", "the", "foo", "is", "JS"];
+// function updateUserInfo(array, str) {
+//   const revArr = [...array].reverse();
+//   console.log(revArr);
+//   const idxStr = revArr.indexOf(str);
+//   console.log(idxStr);
+//   const delEl = revArr.splice(idxStr, 1);
+//   console.log(delEl);
+//   const resultStr = revArr.join(" ");
+//   alert(resultStr);
+//   return resultStr;
+// }
+// console.log(updateUserInfo(arr, "foo"));
+//=============================================================//
