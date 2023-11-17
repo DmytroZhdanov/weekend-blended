@@ -1,1 +1,1 @@
-# weekend-blended
+# Weekend-blended
